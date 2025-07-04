@@ -120,3 +120,20 @@ footer {
   color: white;
   margin-top: 2rem;
 }
+
+.sosmed {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.sosmed img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+.sosmed img:hover {
+  transform: scale(1.2);
+}
